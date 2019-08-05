@@ -2046,7 +2046,7 @@
           "initialVariables": [
             {
               "name": "lock_angle",
-              "value": "30"
+              "value": "45"
             }
           ]
         },
