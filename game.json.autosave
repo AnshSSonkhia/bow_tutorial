@@ -4749,12 +4749,12 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 36.237,
-                            "y": 11.5799
+                            "x": 35.3237,
+                            "y": 20.4422
                           },
                           {
-                            "x": 43.5327,
-                            "y": 11.46
+                            "x": 43.4501,
+                            "y": 20.7059
                           },
                           {
                             "x": 47.7561,
@@ -5882,7 +5882,22 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "arrow",
+                    "target",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "actions": [
                 {
                   "type": {
@@ -5956,18 +5971,6 @@
                   },
                   "parameters": [
                     "arrow"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Rotate"
-                  },
-                  "parameters": [
-                    "arrow",
-                    "-55",
-                    ""
                   ],
                   "subInstructions": []
                 }
